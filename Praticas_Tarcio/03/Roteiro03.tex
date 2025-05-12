@@ -1,0 +1,105 @@
+\documentclass[a4paper,12pt]{article}
+
+% Pacotes essenciais para estrutura e formatação
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[portuguese]{babel}
+\usepackage{geometry}
+\geometry{margin=2.5cm} % Margens adequadas
+\usepackage{parskip} % Espaçamento entre parágrafos
+\usepackage{enumitem} % Para listas personalizadas
+\usepackage{hyperref} % Para links clicáveis
+\usepackage{fancyhdr} % Para cabeçalhos e rodapés
+\usepackage{lastpage} % Para referenciar a última página no rodapé
+
+% Configuração de cabeçalho e rodapé
+\pagestyle{fancy}
+\fancyhf{} % Limpa cabeçalho e rodapé atuais
+\fancyhead[L]{Prática 2: Exibir Texto no LCD 16x2} % Título da prática no cabeçalho esquerdo
+\fancyfoot[C]{\thepage\ de \pageref{LastPage}} % Numeração de página no centro do rodapé
+
+% Configuração de fontes (Noto é uma boa opção moderna)
+\usepackage{noto}
+
+% Personalização do estilo dos hyperlinks
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue
+}
+
+\begin{document}
+
+% Seção do Título
+\begin{center}
+    % Ajuste a referência se houver um capítulo/projeto específico no livro
+    \textbf{\Large Prática 2: Exibir Texto no Display LCD 16x2}
+    % \textbf{\Large (Ref: Livro - Proj. X, Cap. Y)} % Descomente e ajuste se necessário
+\end{center}
+
+\vspace{1cm}
+
+% Roteiro da Aula
+\section*{Roteiro de Aula}
+
+\begin{itemize}
+    \item \textbf{Título da Aula:} Introdução ao Display LCD 16x2 com Arduino
+    \item \textbf{Duração Estimada:} 60-75 minutos (montagem mais complexa)
+    \item \textbf{Objetivos de Aprendizagem:}
+    \begin{itemize}
+        \item Identificar os componentes: Arduino Uno, Display LCD 16x2, Potenciômetro, Resistor, Protoboard, Jumpers.
+        \item Compreender a função dos principais pinos do LCD (VCC, GND, VO, RS, E, D4-D7, A, K).
+        \item Montar o circuito do LCD na protoboard seguindo um diagrama.
+        \item Entender a necessidade e o uso do potenciômetro para ajustar o contraste.
+        \item Entender a função do resistor para o backlight do LCD.
+        \item Incluir e utilizar a biblioteca \texttt{LiquidCrystal.h}.
+        \item Compreender a estrutura básica do código para LCD: inicialização, posicionamento e escrita.
+        \item Utilizar comandos essenciais: \texttt{LiquidCrystal()}, \texttt{lcd.begin()}, \texttt{lcd.setCursor()}, \texttt{lcd.print()}, \texttt{lcd.clear()}.
+        \item Fazer o upload do código para o Arduino (ou simular no Tinkercad) e visualizar o texto.
+        \item Realizar o ajuste de contraste no display físico ou simulado.
+    \end{itemize}
+    \item \textbf{Materiais:}
+    \begin{itemize}
+        \item Computador com Arduino IDE instalado OU acesso ao Tinkercad.
+        \item Kit Arduino: Placa Arduino Uno, cabo USB, protoboard.
+        \item \textbf{Display LCD 16x2} (com pinos soldados, se físico).
+        \item \textbf{Potenciômetro de 10k$\Omega$}.
+        \item 1 Resistor (220$\Omega$ ou 330$\Omega$) para o backlight.
+        \item Fios jumper (Macho-Macho).
+        \item (Opcional) Projetor.
+    \end{itemize}
+    \item \textbf{Procedimento:}
+    \begin{enumerate}
+        \item \textbf{Introdução (5 min):} Apresentar o display LCD, suas aplicações (mostrar texto/dados), objetivo da aula.
+        \item \textbf{Componentes e Pinos (15 min):} Explicar o LCD 16x2, função dos pinos essenciais (alimentação, contraste, controle, dados, backlight). Apresentar o potenciômetro (ajuste de contraste) e o resistor (proteção do backlight). Revisar protoboard.
+        \item \textbf{Montagem do Circuito (15-20 min):} Exibir diagrama de conexão claro. Demonstrar a montagem passo a passo (física ou Tinkercad), enfatizando a atenção aos pinos corretos. Auxiliar os alunos (esta etapa exige mais cuidado).
+        \item \textbf{Introdução ao Código (15 min):}
+            \begin{itemize}
+                \item Abrir IDE/Tinkercad.
+                \item Explicar a necessidade da biblioteca: \texttt{#include <LiquidCrystal.h>}.
+                \item Explicar a inicialização do objeto LCD: \texttt{LiquidCrystal lcd(rs, en, d4, d5, d6, d7);}, relacionando com os pinos do Arduino usados.
+                \item No \texttt{setup()}: \texttt{lcd.begin(16, 2);} para definir o tamanho.
+                \item Comandos básicos: \texttt{lcd.print("Texto");}, \texttt{lcd.setCursor(col, lin);}, \texttt{lcd.clear();}.
+                \item Mostrar o código de exemplo completo.
+            \end{itemize}
+        \item \textbf{Execução e Teste (10 min):} Mostrar verificação/upload/simulação. \textbf{Demonstrar o ajuste do contraste usando o potenciômetro} até o texto ficar nítido. Observar o backlight. Solucionar problemas comuns (conexões erradas, contraste mal ajustado).
+        \item \textbf{Discussão e Variações (5 min):} Como limpar a tela (\texttt{lcd.clear()}), como escrever em locais diferentes (\texttt{setCursor}), como exibir números ou variáveis.
+    \end{enumerate}
+    \item \textbf{Avaliação:} Observação da montagem correta, funcionamento do código, capacidade de ajustar o contraste, perguntas sobre os comandos e a função dos componentes.
+    \item \textbf{Desafios (Opcional/Tarefa):}
+        \begin{itemize}
+            \item Fazer o texto rolar na tela.
+            \item Criar um contador que atualiza no LCD.
+            \item Exibir dados de um sensor (se disponível/próxima aula).
+            % \item (Avançado) Criar caracteres customizados.
+        \end{itemize}
+\end{itemize}
+
+% Adicionar link para o Tinkercad (substitua pela URL correta)
+\vspace{0.5cm}
+\noindent
+% \textbf{Link para Simulação:} \href{URL_DO_SEU_PROJETO_TINKERCAD_AQUI}{Tinkercad - Simulação LCD 16x2}
+\textbf{Link para Simulação (Exemplo - Crie o seu):} \url{https://www.tinkercad.com/} (Lembre-se de criar e compartilhar o link do seu projeto específico)
+
+\end{document}
