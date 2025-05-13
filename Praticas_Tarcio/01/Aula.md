@@ -1,7 +1,3 @@
-# Materiais de Aula - Práticas de Robótica Educacional
-
----
-
 ## Prática 1: Piscar LED (Ref: Livro - Proj. 1, Cap. 2)
 
 ### 1. Roteiro de Aula 
