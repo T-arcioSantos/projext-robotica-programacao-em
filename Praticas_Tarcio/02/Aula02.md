@@ -1,8 +1,5 @@
-```markdown
-# Materiais de Aula - Prática 2: Leitura de Sensor de Luz (LDR)
-
+# Prática 2: Leitura de Sensor de Luz (LDR)
 ---
-
 ## 1. Roteiro de Aula 
 
 *   **Título da Aula:** Interagindo com o Ambiente: Sensor de Luz e Som

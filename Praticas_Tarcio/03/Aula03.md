@@ -1,7 +1,3 @@
-# Materiais de Aula - Práticas de Robótica Educacional
-
----
-
 ## Prática 2: Exibir Texto no Display LCD 16x2
 
 ### 1. Roteiro de Aula 
