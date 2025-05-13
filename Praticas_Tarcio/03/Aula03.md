@@ -4,7 +4,7 @@
 
 ## Prática 2: Exibir Texto no Display LCD 16x2
 
-### 1. Roteiro de Aula (Professor)
+### 1. Roteiro de Aula 
 
 *   **Título da Aula:** Introdução ao Display LCD 16x2 com Arduino
 *   **Duração Estimada:** 60-75 minutos

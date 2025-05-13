@@ -4,7 +4,7 @@
 
 ## Prática 1: Piscar LED (Ref: Livro - Proj. 1, Cap. 2)
 
-### 1. Roteiro de Aula (Professor)
+### 1. Roteiro de Aula 
 
 *   **Título da Aula:** Introdução ao Arduino: Fazendo um LED Piscar
 *   **Duração Estimada:** 50-60 minutos
