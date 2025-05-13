@@ -18,7 +18,7 @@
 *   **Materiais:**
     *   Computador com Arduino IDE instalado OU acesso ao Tinkercad.
     *   Kit Arduino: Placa Arduino Uno, cabo USB, protoboard, 1 LED (qualquer cor), 1 resistor (220Ω ou 330Ω), fios jumper.
-    *   (Opcional) Projetor.
+    *   Projetor.
 *   **Procedimento:**
     1.  **Introdução (5 min):** Apresentar Arduino, placa Uno, objetivo da aula.
     2.  **Componentes e Protoboard (10 min):** Apresentar LED (polaridade), Resistor (função), Protoboard (conexões), Jumpers.
@@ -64,7 +64,7 @@ Bem-vindo ao mundo do Arduino! Nesta primeira prática, vamos montar nosso prime
 **Montando o Circuito:**
 Siga o diagrama abaixo. Lembre-se da polaridade do LED (perna longa +, perna curta -).
 
-**(Inserir aqui o diagrama claro do circuito)**
+**(Inserir aqui o diagrama do circuito)**
 
 **Passos da Montagem:**
 1.  Conecte `GND` do Arduino ao barramento (-) da protoboard.
