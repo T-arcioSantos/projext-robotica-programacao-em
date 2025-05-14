@@ -1,4 +1,4 @@
-## Prática 2: Exibir Texto no Display LCD 16x2
+## Prática 3: Exibir Texto no Display LCD 16x2
 
 ### 1. Roteiro de Aula 
 
@@ -159,7 +159,4 @@ void loop() {
 *   Mude as mensagens escritas no LCD.
 *   Faça o Arduino escrever uma mensagem na primeira linha e um número (contador) que aumenta na segunda linha dentro do `loop()`. (Dica: use `lcd.print(variavel);` e `delay();`).
 
----
 **(Espaço para Anotações)**
-
----
