@@ -84,7 +84,7 @@ Nesta prática, vamos aprender a usar um Display de Cristal Líquido (LCD) 16x2 
 **Montando o Circuito:**
 A montagem do LCD exige atenção! Siga o diagrama e as conexões abaixo com cuidado.
 
-**(Inserir aqui o diagrama claro do circuito LCD)**
+**(Inserir aqui o diagramado circuito LCD)**
 
 **Conexões Principais:**
 *(Confira os nomes dos pinos no seu LCD, podem variar um pouco)*
