@@ -14,7 +14,7 @@ Bem-vindo ao mundo do Arduino! Nesta primeira prática, vamos montar nosso prime
 **Montando o Circuito:**
 Siga o diagrama abaixo. Lembre-se da polaridade do LED (perna longa +, perna curta -).
 
-**(Inserir aqui o diagrama do circuito)**
+![Circuito LED Piscante](https://github.com/T-arcioSantos/projext-robotica-programacao-em/blob/main/Praticas_Tarcio/01/Pr%C3%A1tica%201_%20Piscar%20LED%20.png)
 
 **Passos da Montagem:**
 1.  Conecte `GND` do Arduino ao barramento (-) da protoboard.
