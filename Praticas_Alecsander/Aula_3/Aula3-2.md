@@ -80,8 +80,7 @@ Nesta continuação do Projeto 5, vamos adicionar um **potenciômetro** ao circu
 **Escrevendo o Código:**
 
 ```cpp
-// Projeto - Controle com Potenciômetro
-
+// Projeto 3-2 Controle de Velocidade com Potenciômetro
 byte ledPin[] = {4, 5, 6, 7, 8, 9, 10, 11, 12, 13};
 int ledDelay;
 int direction = 1;

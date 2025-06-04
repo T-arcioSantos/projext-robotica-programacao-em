@@ -86,7 +86,7 @@ Nesta prática, vamos simular um semáforo real usando três LEDs e o Arduino. A
 **Código Arduino:**
 
 ```cpp
-// Projeto Semáforo
+// Projeto 2-1 Semáforo Com LEDs
 
 int ledDelay = 3500; // Tempo de espera entre as alterações
 

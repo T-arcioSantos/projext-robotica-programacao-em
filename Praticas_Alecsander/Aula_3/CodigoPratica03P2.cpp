@@ -1,4 +1,4 @@
-//Projeto 3 Efeito Com LEDs
+//Projeto 3-2 Controle de Velocidade com Potenciômetro
 
 byte ledPin[] = {4, 5, 6, 7, 8, 9, 10, 11, 12, 13};  // Array para os pinos dos LEDs
 int ledDelay;                                       // Intervalo entre as alterações

@@ -1,4 +1,4 @@
-//Projeto 3 Efeito Com LEDs
+//Projeto 3-1 Efeito de Iluminação Sequencial com LEDs
 
 byte ledPin[] = {4, 5, 6, 7, 8, 9, 10, 11, 12, 13};  // Cria um array para os pinos dos LEDs
 int ledDelay = 80;                                   // Intervalo entre as alterações

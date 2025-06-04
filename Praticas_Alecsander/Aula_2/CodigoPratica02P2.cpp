@@ -1,4 +1,4 @@
- // Projeto 2 Semáforo Interativo
+ // Projeto 2-2 Semáforo Interativo
 int carRed = 11;     
 int carYellow = 10;
 int carGreen = 9;

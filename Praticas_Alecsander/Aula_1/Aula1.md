@@ -79,7 +79,7 @@ Conecte o LED ao pino 11 do Arduino com um resistor em série. Use o interruptor
 **Código Arduino:**
 
 ```cpp
-// Projeto X – Lâmpada pulsante
+// Projeto 1 Lâmpada pulsante
 
 int ledPin = 11;
 float sinVal;

@@ -84,7 +84,7 @@ Siga o diagrama que conecta LEDs aos pinos 9, 10, 11 para o semáforo dos carros
 **Código Arduino:**
 
 ```c++
- // Projeto 2-2 – Semáforo
+ // Projeto 2-2 Semáforo Interativo
 int carRed = 11;     
 int carYellow = 10;
 int carGreen = 9;

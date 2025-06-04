@@ -1,4 +1,4 @@
-// Projeto 4 - Alarme com sonorizador piezo (versão melhorada)
+// Projeto 4-1 Sons com o sonorizador piezo
 // Este código toca sons com diferentes frequências e durações, incluindo pausas variadas
 
 int piezo = 7; // Pino conectado ao buzzer piezoelétrico

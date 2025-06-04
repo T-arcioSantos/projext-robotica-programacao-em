@@ -5,7 +5,7 @@
 
 ---
 
-## Prática 3: Efeito de Iluminação Sequencial com LEDs
+## Prática 3-1: Efeito de Iluminação Sequencial com LEDs
 
 ### 1. Roteiro de Aula (Professor)
 
@@ -75,7 +75,7 @@ Monte o circuito conectando os LEDs aos pinos digitais 4 a 13, cada um com um re
 **Código Arduino:**
 
 ```cpp
-// Projeto – Efeito de Iluminação Sequencial com LEDs
+// Projeto 3–1 Efeito de Iluminação Sequencial com LEDs
 
 byte ledPin[] = {4, 5, 6, 7, 8, 9, 10, 11, 12, 13};  // Pinos dos LEDs
 int ledDelay = 80;                                   // Tempo entre os LEDs

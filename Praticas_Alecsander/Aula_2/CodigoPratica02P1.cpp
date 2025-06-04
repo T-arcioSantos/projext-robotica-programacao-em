@@ -1,4 +1,4 @@
-//Projeto 2 Semáforo Normal
+//Projeto 2-1 Semáforo Com LEDs
 
 int ledDelay = 3500; //Espera entre as alterações
 

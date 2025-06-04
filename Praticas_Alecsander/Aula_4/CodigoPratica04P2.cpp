@@ -1,4 +1,4 @@
-// Projeto 4 Alarme com sonorizador piezo
+// Projeto 4-2 Sirene com o sonorizador piezo
 
 float sinVal;
 int toneVal;

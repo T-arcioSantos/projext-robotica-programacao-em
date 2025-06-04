@@ -1,4 +1,4 @@
-// Projeto 1 – Lâmpada pulsante
+// Projeto 1 Lâmpada pulsante
 
 //Declaração de Variáveis
 int ledPin = 11;
