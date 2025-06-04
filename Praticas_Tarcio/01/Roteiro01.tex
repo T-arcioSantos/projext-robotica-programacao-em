@@ -1,0 +1,80 @@
+\documentclass[a4paper,12pt]{article}
+
+% Including essential packages for document structure and formatting
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[portuguese]{babel}
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+\usepackage{parskip}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+
+% Setting up header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{Prática 1: Piscar LED}
+\fancyfoot[C]{\thepage\ de \pageref{LastPage}}
+
+% Configuring fonts
+\usepackage{noto}
+
+% Customizing hyperlink style
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue
+}
+
+\begin{document}
+
+% Creating title section
+\begin{center}
+    \textbf{\Large Prática 1: Piscar LED (Ref: Livro - Proj. 1, Cap. 2)}
+\end{center}
+
+\vspace{1cm}
+
+% Outlining lesson plan
+\section*{Roteiro de Aula}
+
+\begin{itemize}
+    \item \textbf{Título da Aula:} Introdução ao Arduino: Fazendo um LED Piscar
+    \item \textbf{Duração Estimada:} 50-60 minutos
+    \item \textbf{Objetivos de Aprendizagem:}
+    \begin{itemize}
+        \item Identificar os componentes básicos: Arduino Uno, LED, resistor, protoboard, jumpers.
+        \item Montar um circuito simples em uma protoboard seguindo um diagrama.
+        \item Compreender a estrutura básica de um código Arduino (\texttt{setup()} e \texttt{loop()}).
+        \item Utilizar comandos básicos: \texttt{pinMode()}, \texttt{digitalWrite()}, \texttt{delay()}.
+        \item Fazer o upload de um código para o Arduino (ou simular no Tinkercad).
+        \item Entender a função do resistor para proteger o LED.
+    \end{itemize}
+    \item \textbf{Materiais:}
+    \begin{itemize}
+        \item Computador com Arduino IDE instalado OU acesso ao Tinkercad.
+        \item Kit Arduino: Placa Arduino Uno, cabo USB, protoboard, 1 LED (qualquer cor), 1 resistor (220$\Omega$ ou 330$\Omega$), fios jumper.
+        \item (Opcional) Projetor.
+    \end{itemize}
+    \item \textbf{Procedimento:}
+    \begin{enumerate}
+        \item \textbf{Introdução (5 min):} Apresentar Arduino, placa Uno, objetivo da aula.
+        \item \textbf{Componentes e Protoboard (10 min):} Apresentar LED (polaridade), Resistor (função), Protoboard (conexões), Jumpers.
+        \item \textbf{Montagem do Circuito (10 min):} Exibir diagrama, demonstrar montagem (física ou Tinkercad), auxiliar alunos.
+        \item \textbf{Introdução ao Código (15 min):} Abrir IDE/Tinkercad, explicar \texttt{setup()}/\texttt{loop()}, explicar código linha a linha (\texttt{int}, \texttt{pinMode}, \texttt{digitalWrite}, \texttt{delay}, comentários).
+        \item \textbf{Execução e Teste (5 min):} Mostrar verificação/upload/simulação, observar LED, resolver problemas.
+        \item \textbf{Discussão e Variações (5 min):} Alterar \texttt{delay()}, recapitular comandos.
+    \end{enumerate}
+    \item \textbf{Avaliação:} Observação da montagem, funcionamento do código, perguntas sobre comandos.
+    \item \textbf{Desafios (Opcional/Tarefa):} Alterar padrão de piscada, adicionar segundo LED.
+\end{itemize}
+
+% Adding Tinkercad link
+\vspace{0.5cm}
+\noindent
+\textbf{Link:} \href{https://www.tinkercad.com/things/78oGplaYCtD-pratica-1-piscar-led-ref-livro-proj-1-cap-2}{Tinkercad - Simulação do Circuito}
+
+\end{document}
