@@ -67,7 +67,7 @@
 
 ### 3. Apostila do Aluno (Prática 4)
 
-**(Cabeçalho: Prática 4 – Controlando um Servo Motor com Potenciômetro)**
+#### Prática 4 – Controlando um Servo Motor com Potenciômetro
 
 **Introdução:**
 Nesta prática, vamos aprender a controlar a posição exata de um servo motor. Usaremos um potenciômetro (um botão giratório) como um controle manual para dizer ao servo para qual ângulo ele deve se mover. É um dos blocos de construção fundamentais para a robótica!
@@ -83,7 +83,7 @@ Nesta prática, vamos aprender a controlar a posição exata de um servo motor. 
 **Montando o Circuito:**
 Siga a tabela de conexões abaixo. Preste atenção especial às cores dos fios do servo motor.
 
-**(Inserir aqui o diagrama do circuito)**
+![Circuito Servomotor](https://github.com/T-arcioSantos/projext-robotica-programacao-em/blob/main/Praticas_Tarcio/04/Pratica%2004_%20Manipulando%20um%20servomotor.png)
 
 **Tabela de Conexões:**
 
